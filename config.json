@@ -1,0 +1,20 @@
+{
+    "sql_db_credentials":
+    {
+        "user": "user-db-server-name",
+        "password": "user-db-server-password",
+        "host": "public-url-to-db-server",
+        "port": 3306,
+        "database": "name-db"
+    },
+    "s3_bucket_credentials":
+    {
+        "aws_access_key_id": "access_key_id",
+        "aws_secret_access_key": "access_key_secret"
+    },
+    "VB_script_connection":
+    {
+        "component_paths_list_location": "Path to component paths list",
+        "thumbnails_temp_path": "Path where temp save thumbnails"
+    }
+}
